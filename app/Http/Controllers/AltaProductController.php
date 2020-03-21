@@ -46,6 +46,6 @@ class AltaProductController extends Controller
 
       $nuevoProducto->save();
 
-
+      return $this->FormularioAlta();
     }
 }
