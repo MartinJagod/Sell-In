@@ -25,3 +25,4 @@ Route::get('/altaBrand',  function(){return view('altaBrand');});
 Route::post('/altaBrand', 'AltaBrandController@alta')->name('altaBrand');
 Route::get('/listadoEmpresas', 'empresaController@listadoEmpresas')->name('listadoEmpresas');
 Route::get('/listadoProductos/{id}', 'productosController@listadoProductos')->name('listadoProductos');
+Route::get('/cart',  function(){return view('ShoppingCart');});
